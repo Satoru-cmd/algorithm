@@ -5,12 +5,12 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
-		Scanner stdIn = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 
 		System.out.println("３身の整数の最大値を求めます");
-		int a = stdIn.nextInt();
-		int b = stdIn.nextInt();
-		int c = stdIn.nextInt();
+		int a = sc.nextInt();
+		int b = sc.nextInt();
+		int c = sc.nextInt();
 
 		System.out.println(med3(a, b, c));
 	}
